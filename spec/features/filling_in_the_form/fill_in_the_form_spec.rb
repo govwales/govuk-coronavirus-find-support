@@ -87,7 +87,8 @@ RSpec.feature "Fill in the find support form" do
     and_is_unable_to_get_food
     and_is_not_able_to_leave_home_if_absolutely_necessary
     they_view_the_results_page
-    they_are_not_provided_with_information_about_getting_support_when_vulnerable
+    ## GOV.WALES: Disable the following assertion, as is not relevant for GOV.WALES
+    # they_are_not_provided_with_information_about_getting_support_when_vulnerable
     they_are_given_a_link_for_providing_feedback
   end
 

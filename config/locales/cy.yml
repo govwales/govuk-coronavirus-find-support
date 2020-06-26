@@ -251,7 +251,7 @@
                   label: "Ddim yn siŵr"
               custom_select_error: "Dewiswch ‘Ydw’ os ydych yn ei chael yn anodd fforddio’ch rhent, eich morgais neu’ch biliau"
         getting_food:
-          title: "Cael gafael ar fwyd"
+          title: "Cael gafael ar fwyd neu foddion"
           questions:
             afford_food:
               title: "Ydych chi’n ei chael yn anodd fforddio bwyd?"
@@ -264,7 +264,7 @@
                   label: "Ddim yn siŵr"
               custom_select_error: "Dewiswch ‘Ydw’ os ydych yn ei chael yn anodd fforddio bwyd"
             get_food:
-              title: "A fyddwch yn gallu cael gafael ar fwyd yn yr wythnos nesaf?"
+              title: "A fyddwch yn gallu cael gafael ar fwyd neu foddion yn yr wythnos nesaf?"
               options:
                 option_yes:
                   label: "Byddaf, gallaf fynd i’r siop neu gael cymorth gan eraill"
@@ -477,17 +477,20 @@
               text: "Os ydych mewn angen dybryd o ran bwyd ac nid oes gennych gymorth arall, gall cymorth fod ar gael gan eich cyngor"
               href: "https://llyw.cymru/dod-o-hyd-ich-awdurdod-lleol"
         get_food:
-          title: "Os na allwch gael gafael ar fwyd"
+          title: "Os na allwch gael gafael ar fwyd neu foddion"
           show_options:
             - "Na fyddaf"
             - "Ddim yn siŵr"
           items:
             - id: "0019"
-              text: "Os yw’n bosibl, gofynnwch i ffrind, perthynas neu rywun arall yn y gymuned nôl bwyd ichi."
+              text: "Os yw’n bosibl, gofynnwch i ffrind, perthynas neu rywun arall yn y gymuned nôl bwyd neu foddion ichi."
             - id: "0020"
               text: "Efallai y gallwch ffonio’ch siopau neu’ch bwytai lleol i ofyn iddyn nhw ddanfon bwyd atoch, neu gallwch archebu bwyd ar-lein. <a href='https://llyw.cymru/cael-bwyd-chyflenwadau-hanfodol-yn-ystod-pandemig-y-coronafeirws?_ga=2.254405965.474179600.1590565960-290057162.1589883415'>Dyma wybodaeth am wasanaethau archfarchnadoedd.</a>"
             - id: "0021"
               text: "Os nad oes neb i’ch helpu i gael bwyd, efallai y gallwch gael <a href='https://llyw.cymru/cymorth-i-bobl-agored-i-niwed-gan-awdurdodau-lleol-grwpiau-gwirfoddol'>cymorth gan sefydliad gwirfoddol</a>."
+            - id: "0061"
+              text: "Mwy o wybodaeth ynghylch cael moddion yn ystod pandemig y coronafeirws."
+              href: "https://llyw.cymru/cael-meddyginiaethau-yn-ystod-pandemig-y-coronafeirws"
             - id: "0022"
               text: "Os oes angen cymorth ar frys arnoch ac nid oes gennych gymorth arall, <a href='https://llyw.cymru/dod-o-hyd-ich-awdurdod-lleol'>cysylltwch â’ch awdurdod lleol</a>."
             #- id: "0023"
@@ -517,6 +520,9 @@
             - id: "0028"
               text: "Beth i’w wneud os yw’ch cyflogwr wedi dweud wrthych i beidio â gweithio (gwefan Cyngor ar Bopeth)"
               href: "https://www.citizensadvice.org.uk/cymraeg/work/coronafirws-os-ywch-cyflogwr-wedi-dweud-wrthych-am-beidio-a-gweithio/"
+            - id: "0060"
+              text: "Gwybod am eich hawliau os ydych ar ffyrlo (ar Acas)"
+              href: "https://www.acas.org.uk/coronavirus/furlough-scheme-pay"
             - id: "0029"
               text: "Gwybodaeth am ymgeisio am Gredyd Cynhwysol"
               href: "https://www.citizensadvice.org.uk/cymraeg/benefits/credyd-cynhwysol/"
@@ -572,6 +578,9 @@
             - id: "0040"
               text: "Dyma wybodaeth am gadw pellter corfforol yn y gweithle"
               href: "https://llyw.cymru/cymryd-pob-cam-rhesymol-i-gynnal-pellter-corfforol-yn-y-gweithle"
+            - id: "0059"
+              text: "Sut i fod yn ddiogel wrth gerdded, beicio a theithio mewn cerbydau neu ar drafnidiaeth gyhoeddu"
+              href: "https://llyw.cymru/teithion-ddiogel-coronafeirws-canllawiau-ir-cyhoedd"
       somewhere_to_live:
         have_somewhere_to_live:
           title: "Os nad oes gennych rywle i fyw neu os gallech golli’ch cartref"
@@ -645,3 +654,6 @@
               text: "Mae adnodd addysgol am ddim ar gael ar-lein ynglŷn ag iechyd meddwl plant a phobl ifanc"
               href: "https://www.minded.org.uk/"
             # - id: "0058" has been added after entry "0002"
+            # - id: "0059" has been added after entry "0040"
+            # - id: "0060" has been added after entry "0028"
+            # - id: "0061" has been added after entry "0021"

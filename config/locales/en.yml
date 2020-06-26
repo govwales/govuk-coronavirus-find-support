@@ -256,7 +256,7 @@
                   label: "Not sure"
               custom_select_error: "Select yes if you’re finding it hard to afford your rent, your mortgage or bills"
         getting_food:
-          title: "Getting food"
+          title: "Getting food or medicine"
           questions:
             afford_food:
               title: "Are you finding it hard to afford food?"
@@ -269,7 +269,7 @@
                   label: "Not sure"
               custom_select_error: "Select yes if you’re finding it hard to afford food"
             get_food:
-              title: "Are you able to get food in the next week?"
+              title: "Are you able to get food or medicines in the next week?"
               options:
                 option_yes:
                   label: "Yes, I can go to the shops or get help from others"
@@ -482,17 +482,20 @@
               text: "If you need food urgently and have no other support, find out if you can get help from your council"
               href: "https://gov.wales/find-your-local-authority"
         get_food:
-          title: "If you’re unable to get food"
+          title: "If you’re unable to get food or medicines"
           show_options:
             - "No"
             - "Not sure"
           items:
             - id: "0019"
-              text: "If you can, ask friends, family or other people in your community to get food for you."
+              text: "If you can, ask friends, family or other people in your community to get food or medicines for you."
             - id: "0020"
               text: "You might be able to phone your local shops or restaurants to get a food delivery, or get food online. <a href='https://gov.wales/getting-food-and-essential-supplies-during-coronavirus-pandemic'>Find out about the services supermarkets are offering.</a>"
             - id: "0021"
               text: "If there’s no one to help you get food find out if you can <a href='https://gov.wales/help-vulnerable-local-authorities-and-voluntary-groups'>get help from a voluntary organisation</a>."
+            - id: "0061"
+              text: "Find out more about getting medicines during the coronavirus pandemic."
+              href: "https://gov.wales/getting-medicines-during-coronavirus-pandemic"
             - id: "0022"
               text: "If you need urgent help and have no other support, <a href='https://gov.wales/find-your-local-authority'>contact your local authority</a>."
             #- id: "0023"
@@ -522,6 +525,9 @@
             - id: "0028"
               text: "What to do if your employer has told you not to work (on Citizens Advice)"
               href: "https://www.citizensadvice.org.uk/wales/work/coronavirus-being-furloughed-if-you-cant-work/"
+            - id: "0060"
+              text: "Find out about your rights if you’ve been furloughed (on Acas)"
+              href: "https://www.acas.org.uk/coronavirus/furlough-scheme-pay"
             - id: "0029"
               text: "Get information on applying for Universal Credit (on Citizens Advice)"
               href: "https://www.citizensadvice.org.uk/wales/benefits/universal-credit/"
@@ -577,6 +583,9 @@
             - id: "0040"
               text: "Find out about physical distancing in the workplace"
               href: "https://gov.wales/taking-all-reasonable-measures-maintain-physical-distancing-workplace"
+            - id: "0059"
+              text: "How to be safe when walking, cycling, and travelling in vehicles or on public transport"
+              href: "https://gov.wales/travelling-safely-coronavirus-guidance-public"
       somewhere_to_live:
         have_somewhere_to_live:
           title: "If you do not have somewhere to live or might become homeless"
@@ -650,3 +659,6 @@
               text: "Access a free educational resource on children and young people’s mental health"
               href: "https://www.minded.org.uk/"
             # - id: "0058" has been added after entry "0002"
+            # - id: "0059" has been added after entry "0040"
+            # - id: "0060" has been added after entry "0028"
+            # - id: "0061" has been added after entry "0021"
