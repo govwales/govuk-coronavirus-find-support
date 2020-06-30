@@ -586,6 +586,9 @@
             - id: "0059"
               text: "How to be safe when walking, cycling, and travelling in vehicles or on public transport"
               href: "https://gov.wales/travelling-safely-coronavirus-guidance-public"
+            - id: "0062"
+              text: "Check if you are at higher risk of more serious symptoms if you come into contact with COVID-19"
+              href: "https://gov.wales/covid-19-workforce-risk-assessment-tool"
       somewhere_to_live:
         have_somewhere_to_live:
           title: "If you do not have somewhere to live or might become homeless"
@@ -662,3 +665,4 @@
             # - id: "0059" has been added after entry "0040"
             # - id: "0060" has been added after entry "0028"
             # - id: "0061" has been added after entry "0021"
+            # - id: "0062" has been added after entry "0059"

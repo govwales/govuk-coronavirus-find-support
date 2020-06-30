@@ -581,6 +581,9 @@
             - id: "0059"
               text: "Sut i fod yn ddiogel wrth gerdded, beicio a theithio mewn cerbydau neu ar drafnidiaeth gyhoeddu"
               href: "https://llyw.cymru/teithion-ddiogel-coronafeirws-canllawiau-ir-cyhoedd"
+            - id: "0062"
+              text: "Gwirio os oes risg uwch i chi gael symptomau mwy difrifol os ydych yn dod i gyswllt â COVID-19"
+              href: "https://llyw.cymru/adnodd-asesu-risg-covid-19-ar-gyfer-y-gweithlu"
       somewhere_to_live:
         have_somewhere_to_live:
           title: "Os nad oes gennych rywle i fyw neu os gallech golli’ch cartref"
@@ -657,3 +660,4 @@
             # - id: "0059" has been added after entry "0040"
             # - id: "0060" has been added after entry "0028"
             # - id: "0061" has been added after entry "0021"
+            # - id: "0062" has been added after entry "0059"
