@@ -376,13 +376,13 @@
                 option_yes:
                   label: "Gallaf"
                 option_has_symptoms:
-                  label: "Ni ddylwn adael y tŷ gan fod y coronafeirws arnaf i neu ar rywun arall yn fy nghartref"
+                  label: "Na, ni ddylwn adael y tŷ gan fod gennyf i neu rhywun yn fy nghartred symptomau’r coronafeirws, ac wedi cael prawf positif neu’n aros am ganlyniadau"
                 option_high_risk:
-                  label: "Ni ddylwn adael y tŷ gan fy mod yn credu y byddwn mewn perygl o salwch difrifol pe bawn yn dal y coronafeirws"
+                  label: "Na, ni ddylwn adael y tŷ gan fy gennyf gyflwr meddygol sy’n golygu y fy mod yn eithriadol o agored i niwed gan y coronafeirws"
                 option_disability:
-                  label: "Ni allaf fynd allan oherwydd nam neu gyflwr iechyd"
+                  label: "Na, ni allaf fynd allan oherwydd nam neu gyflwr iechyd"
                 option_other:
-                  label: "Ni allaf adael y tŷ am reswm arall"
+                  label: "Na, ni allaf adael y tŷ am reswm arall"
               custom_select_error: "Dewiswch os ydych yn gallu gadael eich tŷ ai peidio"
       results:
         header:

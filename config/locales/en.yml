@@ -381,13 +381,13 @@
                 option_yes:
                   label: "Yes"
                 option_has_symptoms:
-                  label: "I should not leave home because I have coronavirus, or someone in my household does"
+                  label: "No, I should not leave home because I or someone in my household has coronavirus symptoms, has tested positive or is waiting for results"
                 option_high_risk:
-                  label: "I should not leave home because I think I’m at risk of severe illness from coronavirus"
+                  label: "No, I should not leave home because I have a medical condition which means I’m extremely vulnerable to coronavirus"
                 option_disability:
-                  label: "I can’t go out because of my impairment or health condition"
+                  label: "No, I’m unable to go out because of my impairment or health condition"
                 option_other:
-                  label: "I’m unable to leave my home for another reason"
+                  label: "No, I’m unable to leave my home for another reason"
               custom_select_error: "Select if you’re able to leave your home or not"
       results:
         header:
